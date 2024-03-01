@@ -1,6 +1,6 @@
 {
   "name": "@hexalox/base-express",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Provides a basic setup for an Express server with configurable options. It includes features such as cookie parsing, helmet security middleware, JSON parsing, error handling, and the ability to start both HTTP and HTTPS servers.",
   "main": "dist/index.js",
   "scripts": {
