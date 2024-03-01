@@ -1,0 +1,25 @@
+{
+  "name": "@hexalox/base-express",
+  "version": "1.1.1",
+  "description": "Provides a basic setup for an Express server with configurable options. It includes features such as cookie parsing, helmet security middleware, JSON parsing, error handling, and the ability to start both HTTP and HTTPS servers.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4"
+  },
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.3",
+    "helmet": "^7.1.0"
+  }
+}
